@@ -1,0 +1,5 @@
+@import '~antd/dist/antd.css';
+.post-list {
+  width: 500px;
+  margin: 0 auto;
+}
