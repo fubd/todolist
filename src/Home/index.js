@@ -10,7 +10,7 @@ export default class Home extends Component {
 
   handleChange = name => e => {
     this.setState({
-      ['name']: e.target.value
+      [name]: e.target.value
     });
   };
 
@@ -35,4 +35,3 @@ export default class Home extends Component {
     );
   }
 }
-
